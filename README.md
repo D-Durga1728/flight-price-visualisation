@@ -21,6 +21,16 @@ We were preoccupied with the identification of trends because the departure date
 
 ---
 
+## Technologies Used
+
+- Python
+- Pandas
+- Plotly
+- Jupyter Notebook
+- Google Colab
+
+---
+
 # Dataset  
 
 Source: Kaggle Flight Prices Dataset.  
