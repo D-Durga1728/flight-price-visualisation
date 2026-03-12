@@ -3,6 +3,11 @@
 FlightPrice_Evolution is a data visualisation project that investigates the change in price of airline tickets with a closer departure date. We scraped a huge data set at Expedia, performed some data wrangling, and crammed it into a series of interactive plots in order to identify pricing patterns. I covered this as my CSC1143 Data Visualisation course project.  
 
 ---
+## Run the Project in Google Colab
+
+This project is designed to run in Google Colab because the dataset processing requires more memory than typical local environments.
+
+---
 
 # Project Overview  
 
@@ -48,6 +53,25 @@ Selected variables:
 A brand‑new feature we made:  
 
 - days beforeFlight = flightDate - searchDate  
+
+---
+
+## Running the Notebook
+
+To run the project:
+
+1. Click the **Open in Colab** button above.
+2. Mount your Google Drive in Colab:
+
+Run the following code cell to access your dataset stored in Google Drive:
+
+from google.colab import drive
+ drive.mount('/content/drive') 
+
+3. Ensure the dataset path matches the location in your Google Drive.
+4. Run the notebook cells sequentially.
+
+The notebook performs data processing, feature creation, and visualization of flight price evolution.
 
 ---
 
@@ -141,3 +165,9 @@ No personal identifiers were present in our data set; it is merely a flight itin
   - Data privacy regulations
   - Proper utilisation of pricing information.
   - Openness in the findings of the analysis.
+
+---
+
+## Note
+
+Due to the large dataset size, the project is intended to run in Google Colab rather than a local environment.
